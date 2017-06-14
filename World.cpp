@@ -17,6 +17,8 @@ World::~World()
 
 void World::DisplayWorld() const
 {
+	vector<string> displayStack;
+
 	for (int i = 0; i < worldWidth; ++i)
 	{
 		for (int j = 0; j < worldHeight; ++j)
