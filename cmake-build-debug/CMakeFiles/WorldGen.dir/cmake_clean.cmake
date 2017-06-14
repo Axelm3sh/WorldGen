@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/WorldGen.dir/main.cpp.obj"
+  "CMakeFiles/WorldGen.dir/World.cpp.obj"
+  "CMakeFiles/WorldGen.dir/Tiles.cpp.obj"
   "WorldGen.pdb"
   "WorldGen.exe"
   "WorldGen.exe.manifest"

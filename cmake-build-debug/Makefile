@@ -122,6 +122,60 @@ WorldGen/fast:
 	$(MAKE) -f CMakeFiles\WorldGen.dir\build.make CMakeFiles/WorldGen.dir/build
 .PHONY : WorldGen/fast
 
+Tiles.obj: Tiles.cpp.obj
+
+.PHONY : Tiles.obj
+
+# target to build an object file
+Tiles.cpp.obj:
+	$(MAKE) -f CMakeFiles\WorldGen.dir\build.make CMakeFiles/WorldGen.dir/Tiles.cpp.obj
+.PHONY : Tiles.cpp.obj
+
+Tiles.i: Tiles.cpp.i
+
+.PHONY : Tiles.i
+
+# target to preprocess a source file
+Tiles.cpp.i:
+	$(MAKE) -f CMakeFiles\WorldGen.dir\build.make CMakeFiles/WorldGen.dir/Tiles.cpp.i
+.PHONY : Tiles.cpp.i
+
+Tiles.s: Tiles.cpp.s
+
+.PHONY : Tiles.s
+
+# target to generate assembly for a file
+Tiles.cpp.s:
+	$(MAKE) -f CMakeFiles\WorldGen.dir\build.make CMakeFiles/WorldGen.dir/Tiles.cpp.s
+.PHONY : Tiles.cpp.s
+
+World.obj: World.cpp.obj
+
+.PHONY : World.obj
+
+# target to build an object file
+World.cpp.obj:
+	$(MAKE) -f CMakeFiles\WorldGen.dir\build.make CMakeFiles/WorldGen.dir/World.cpp.obj
+.PHONY : World.cpp.obj
+
+World.i: World.cpp.i
+
+.PHONY : World.i
+
+# target to preprocess a source file
+World.cpp.i:
+	$(MAKE) -f CMakeFiles\WorldGen.dir\build.make CMakeFiles/WorldGen.dir/World.cpp.i
+.PHONY : World.cpp.i
+
+World.s: World.cpp.s
+
+.PHONY : World.s
+
+# target to generate assembly for a file
+World.cpp.s:
+	$(MAKE) -f CMakeFiles\WorldGen.dir\build.make CMakeFiles/WorldGen.dir/World.cpp.s
+.PHONY : World.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +212,12 @@ help:
 	@echo ... WorldGen
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Tiles.obj
+	@echo ... Tiles.i
+	@echo ... Tiles.s
+	@echo ... World.obj
+	@echo ... World.i
+	@echo ... World.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

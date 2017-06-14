@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/axelm/Documents/GitHub/WorldGen/Tiles.cpp" "C:/Users/axelm/Documents/GitHub/WorldGen/cmake-build-debug/CMakeFiles/WorldGen.dir/Tiles.cpp.obj"
+  "C:/Users/axelm/Documents/GitHub/WorldGen/World.cpp" "C:/Users/axelm/Documents/GitHub/WorldGen/cmake-build-debug/CMakeFiles/WorldGen.dir/World.cpp.obj"
   "C:/Users/axelm/Documents/GitHub/WorldGen/main.cpp" "C:/Users/axelm/Documents/GitHub/WorldGen/cmake-build-debug/CMakeFiles/WorldGen.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

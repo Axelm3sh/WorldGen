@@ -80,6 +80,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/axelm/Documents/GitHub/WorldGen/Tiles.cpp">
+			<Option target="WorldGen"/>
+		</Unit>
+		<Unit filename="C:/Users/axelm/Documents/GitHub/WorldGen/Tiles.h">
+			<Option target="WorldGen"/>
+		</Unit>
+		<Unit filename="C:/Users/axelm/Documents/GitHub/WorldGen/World.cpp">
+			<Option target="WorldGen"/>
+		</Unit>
+		<Unit filename="C:/Users/axelm/Documents/GitHub/WorldGen/World.h">
+			<Option target="WorldGen"/>
+		</Unit>
 		<Unit filename="C:/Users/axelm/Documents/GitHub/WorldGen/main.cpp">
 			<Option target="WorldGen"/>
 		</Unit>
