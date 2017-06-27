@@ -12,6 +12,7 @@ enum TileType
 	PATH,
 	MOUNTAIN,
 	FOREST,
+	EMPTY
 };
 
 class Tiles

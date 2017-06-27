@@ -7,7 +7,7 @@ int main()
 
     World world;
 
-
+	world.DisplayWorld();
 
     return 0;
 }

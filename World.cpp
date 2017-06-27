@@ -6,8 +6,7 @@
 
 World::World()
 {
-	worldHeight = DEFAULT_HEIGHT;
-	worldWidth = DEFAULT_WIDTH;
+	SetWorldSize();
 }
 
 World::~World()
@@ -15,16 +14,24 @@ World::~World()
 
 }
 
-void World::DisplayWorld() const
+void World::DisplayWorld()
 {
 	vector<string> displayStack;
+	string temp;
 
-	for (int i = 0; i < worldWidth; ++i)
+	for (int i = 0; i < worldHeight; ++i)
 	{
-		for (int j = 0; j < worldHeight; ++j)
+		temp.clear();
+		for (int j = 0; j < worldWidth; ++j)
 		{
-
+			temp = temp + TileToCharacter(world.at(i).at(j));
 		}
+		displayStack.push_back(temp);
+	}
+
+	for (int k = 0; k < displayStack.size(); ++k)
+	{
+		cout << displayStack.at(k) << "\n";
 	}
 
 }
@@ -34,10 +41,10 @@ void World::SetWorldSize(int width, int height)
 	worldHeight = height;
 	worldWidth = width;
 
-	world.resize(width);
-	for (int i = 0; i < width; ++i)
+	world.resize(height);
+	for (int i = 0; i < height; ++i)
 	{
-		world.at(i).resize(height);
+		world.at(i).resize(width);
 	}
 }
 
@@ -57,6 +64,8 @@ char World::TileToCharacter(Tiles tile)
 			return '^';
 		case FOREST:
 			return 'Y';
+		case EMPTY:
+			return '~';
 	}
 
 }
